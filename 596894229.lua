@@ -3,7 +3,7 @@ assert(not libLoaded, "SLite was already loaded.")
 local ATLA
 
 task.spawn(function()
-    ATLA = loadstring(game:HttpGet("https://raw.githubusercontent.com/SnowyXS/SLite/main/Libraries/Games/596894229.lua"))()
+    ATLA = loadstring(game:HttpGet("https://raw.githubusercontent.com/WantedKiler/atla/sss/library.lua"))()
 end)
 
 local Players = game:GetService("Players")
@@ -78,7 +78,7 @@ do -- Loading
     --loadingImage:Remove()
 end
 
-local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/SnowyXS/SLite/main/Libraries/UI/Controller.lua"))()
+local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/WantedKiler/atla/sss/controller.lua"))()
 
 local nameTag = head:WaitForChild("Nametag")
 local playerData = LocalPlayer:WaitForChild("PlayerData")
