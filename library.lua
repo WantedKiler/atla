@@ -1,6 +1,6 @@
-local Garbage = loadstring(game:HttpGet("https://raw.githubusercontent.com/SnowyXS/SLite/main/Libraries/Dependencies/Garbage.lua"))()
-local Settings = loadstring(game:HttpGet("https://raw.githubusercontent.com/SnowyXS/SLite/main/Libraries/Dependencies/Settings.lua"))()
-local PropertyChanged = loadstring(game:HttpGet("https://raw.githubusercontent.com/SnowyXS/SLite/main/Libraries/Dependencies/PropertyChanged.lua"))()
+local Garbage = loadstring(game:HttpGet("https://raw.githubusercontent.com/WantedKiler/atla/sss/grabage.lua"))()
+local Settings = loadstring(game:HttpGet("https://raw.githubusercontent.com/WantedKiler/atla/sss/setting.lua"))()
+local PropertyChanged = loadstring(game:HttpGet("https://raw.githubusercontent.com/WantedKiler/atla/sss/property.lua"))()
 
 local Players = game:GetService("Players")
 local Stats = game:GetService("Stats")
